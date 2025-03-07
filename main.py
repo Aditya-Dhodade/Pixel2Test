@@ -25,7 +25,7 @@ chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("--no-sandbox")
 
 # Path to your ChromeDriver
-chrome_driver_path = "D:/chromedriver-win64/chromedriver-win64/chromedriver.exe"
+chrome_driver_path = "chromedriver.exe"
 
 # Initialize the WebDriver
 service = Service(chrome_driver_path)
