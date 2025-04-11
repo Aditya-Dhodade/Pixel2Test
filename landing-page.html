@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel2Test.ai</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    };
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="transition-colors duration-300 bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white">
+
+  <!-- Header -->
+  <header class="py-3 px-6 flex items-center justify-between shadow-lg border-b bg-white border-gray-300 dark:bg-gray-800 dark:border-gray-700">
+    
+    <!-- Navigation -->
+    <nav class="hidden sm:flex items-center space-x-6 text-lg">
+      <a href="#home" class="hover:text-blue-500 transition dark:text-gray-300">Home</a>
+      <a href="#contact" class="hover:text-blue-500 transition dark:text-gray-300">Contact</a>
+    </nav>
+
+    <!-- Brand -->
+    <h1 class="text-3xl font-extrabold tracking-wide bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+      Pixel2Test.ai
+    </h1>
+
+    <!-- Logo + Toggle -->
+    <div class="flex items-center space-x-4">
+      <img src="logo.png" alt="Logo" class="h-10 w-auto rounded bg-white/20 p-1" />
+      <button id="themeToggle" class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:scale-110 transition">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow flex flex-col items-center justify-center text-center px-6 py-10">
+
+    <!-- Intro -->
+    <section id="home" class="max-w-3xl mb-12">
+      <h2 class="text-4xl font-extrabold mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+        AI-Powered Test Case Generation
+      </h2>
+      <p class="text-lg mb-6">
+        Upload a form image and let our AI generate test cases automatically. Reduce manual efforts and enhance efficiency!
+      </p>
+      <a href="http://localhost:8501/" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg font-medium shadow-lg hover:from-purple-600 hover:to-pink-600 transform hover:scale-105 transition inline-block">
+        Get Started
+      </a>
+    </section>
+
+    <!-- Features -->
+    <section class="max-w-5xl w-full px-4 mb-16">
+      <h3 class="text-3xl font-bold mb-8">Key Features</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="p-5 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+          <h4 class="text-xl font-semibold mb-2">Automated Test Generation</h4>
+          <p>Instantly generate test cases by simply uploading an image of your form.</p>
+        </div>
+        <div class="p-5 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+          <h4 class="text-xl font-semibold mb-2">Seamless Integration</h4>
+          <p>Works effortlessly with testing tools like Selenium.</p>
+        </div>
+        <div class="p-5 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+          <h4 class="text-xl font-semibold mb-2">Supports Various Inputs</h4>
+          <p>Upload images, enter URLs for comprehensive testing.</p>
+        </div>
+        <div class="p-5 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+          <h4 class="text-xl font-semibold mb-2">Time & Cost Efficiency</h4>
+          <p>Reduce manual effort and increase productivity with AI-powered automation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="max-w-5xl w-full px-4">
+      <h3 class="text-3xl font-bold mb-8">How It Works</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="p-5 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+          <h4 class="text-xl font-semibold mb-2">📷 Upload a Photo</h4>
+          <p>Choose an image of the form you want to generate test cases for.</p>
+        </div>
+        <div class="p-5 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+          <h4 class="text-xl font-semibold mb-2">🔗 Enter the URL</h4>
+          <p>Provide the URL of the form if available for better accuracy.</p>
+        </div>
+        <div class="p-5 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+          <h4 class="text-xl font-semibold mb-2">📌 Select Number of Test Cases</h4>
+          <p>Specify how many test cases you want to generate.</p>
+        </div>
+        <div class="p-5 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+          <h4 class="text-xl font-semibold mb-2">🚀 Run Test Cases</h4>
+          <p>Execute the test cases and get instant results.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <!-- <footer class="py-6 text-center border-t bg-white border-gray-300 dark:bg-gray-800 dark:border-gray-700">
+    <div class="flex justify-center space-x-6 text-xl mb-3">
+      <a href="#" class="hover:text-blue-400">🐦</a>
+      <a href="#" class="hover:text-blue-400">💼</a>
+      <a href="#" class="hover:text-blue-400">🐙</a>
+    </div>
+    <p class="text-sm">
+      &copy; 2025 | Sarvatra Technologies | All rights reserved | Confidential | For internal use only.
+    </p>
+    
+  </footer> -->
+
+  <footer class="py-6 text-center border-t bg-white border-gray-300 dark:bg-gray-800 dark:border-gray-700">
+    <div class="flex justify-center space-x-6 text-2xl mb-3">
+      <a href="https://twitter.com/yourprofile" target="_blank" class="hover:text-blue-400 transition-colors">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" class="hover:text-blue-400 transition-colors">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/yourprofile" target="_blank" class="hover:text-blue-400 transition-colors">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <p class="text-sm">
+      &copy; 2025 | Sarvatra Technologies | All rights reserved | Confidential | For internal use only.
+    </p>
+  </footer>
+
+  <!-- Toggle Script -->
+  <script>
+    const toggleBtn = document.getElementById("themeToggle");
+    const htmlEl = document.documentElement;
+
+    // Initial load from localStorage
+    if (localStorage.getItem("theme") === "dark") {
+      htmlEl.classList.add("dark");
+      toggleBtn.textContent = "☀";
+    }
+
+    toggleBtn.addEventListener("click", () => {
+      htmlEl.classList.toggle("dark");
+      const isDark = htmlEl.classList.contains("dark");
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+      toggleBtn.textContent = isDark ? "☀" : "🌙";
+    });
+  </script>
+
+</body>
+</html>
